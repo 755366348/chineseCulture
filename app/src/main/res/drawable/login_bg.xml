@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:angle="270"
+                android:endColor="@color/login_bg_bottom"
+                android:startColor="@color/login_bg_top" />
+        </shape>
+    </item>
+
+    <item android:gravity="top|center_horizontal">
+        <shape android:shape="oval">
+            <size
+                android:width="260dp"
+                android:height="140dp" />
+            <solid android:color="@color/login_cloud_light" />
+        </shape>
+    </item>
+
+    <item
+        android:gravity="top|end"
+        android:right="24dp"
+        android:top="80dp">
+        <shape android:shape="oval">
+            <size
+                android:width="160dp"
+                android:height="86dp" />
+            <solid android:color="@color/login_cloud_light" />
+        </shape>
+    </item>
+</layer-list>
